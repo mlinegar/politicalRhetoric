@@ -2,6 +2,7 @@
 # as such, I'd recommend either:
 # reducing the number of iterations by setting the burnIn and numRuns options in the makeCorpus function
 # or just read in the generated output files, which are already uploaded
+library(tidyverse)
 
 processedSpeeches <- read_csv("processedSpeeches.csv")
 collectedSpeeches.metadata <- read_csv("collectedSpeeches.metadata.csv")

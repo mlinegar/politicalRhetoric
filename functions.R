@@ -96,7 +96,7 @@ topicPlotPoint <- function(topicNum, doc.topics.df, xlab=TRUE, trend=FALSE, titl
     p <- p + geom_smooth(aes(y = gamma, colour = "Clinton"), data = doc.topics.df %>% filter(topic==topicNum, author=="Hillary Clinton")) +
       geom_smooth(aes(y = gamma, colour = "Trump"), data = doc.topics.df %>% filter(topic==topicNum, author=="Donald Trump"))
   }
-  print(p)
+  p
 }
 
 
@@ -150,6 +150,11 @@ printTopicPollPlots <- function(ntopics, doc.topics.df){
     print(combPlot)
   }
 }
+# 
+# printTopicPollPlots(10, postSep1Corpus)
+# ggarrange(topicPlotPoint(2, postSep1Corpus, trend = TRUE, xlab = FALSE), pollPlot(postSep1Corpus), heights = c(2, 1),
+#           ncol = 1, nrow = 2, align = "v")
+# ggsave("topicPollCombPlot.png")
 
 
 
