@@ -1,0 +1,96 @@
+from,to
+[[:blank:]]michelle[[:blank:]]obama[[:blank:]], michelleobama 
+[[:blank:]]michelle[[:blank:]], michelleobama 
+[[:blank:]]bill[[:blank:]]clinton[[:blank:]], billclinton 
+[[:blank:]]william[[:blank:]]clinton[[:blank:]], billclinton 
+[[:blank:]]clinton[[:punct:]]s[[:blank:]], clinton 
+[[:blank:]]hillary[[:blank:]](rodham[[:blank:]])?clinton[[:blank:]], hillaryclinton 
+[[:blank:]]madam[[:blank:]]secretrary[[:blank:]], hillaryclinton 
+[[:blank:]](secretrary[[:blank:]])?clinton[[:blank:]], hillaryclinton 
+[[:blank:]](secretrary[[:blank:]])?(of[[:blank:]]state[[:blank:]])?(hillary[[:blank:]])?(clinton[[:blank:]])?, hillaryclinton 
+[[:blank:]]secretrary[[:blank:]]clinton[[:blank:]], hillaryclinton 
+[[:blank:]]hillary(s)?[[:blank:]], hillaryclinton 
+[[:blank:]]donald[[:blank:]](j[[:blank:]])?trump[[:blank:]], donaldtrump 
+[[:blank:]]trump[[:blank:]], donaldtrump 
+[[:blank:]]donald[[:blank:]], donaldtrump 
+[[:blank:]](president[[:blank:]])?barack[[:blank:]]obama[[:blank:]], barackobama 
+[[:blank:]](president[[:blank:]])?obama[[:blank:]], barackobama 
+[[:blank:]]barack[[:blank:]], barackobama 
+[[:blank:]]obama[[:blank:]], barackobama 
+[[:blank:]](senator[[:blank:]])?bernie[[:blank:]]sanders[[:blank:]], berniesanders 
+[[:blank:]]senator[[:blank:]]sander(s)?[[:blank:]], berniesanders 
+[[:blank:]](senator[[:blank:]])?sander(s)?[[:blank:]], berniesanders 
+[[:blank:]]bernie[[:blank:]], berniesanders 
+[[:blank:]]sander[[:punct:]]?s?[[:blank:]], berniesanders 
+[[:blank:]]sander[[:blank:]], berniesanders 
+[[:blank:]](senator[[:blank:]])?ted[[:blank:]]cruz[[:blank:]], tedcruz 
+[[:blank:]](senator[[:blank:]])?cruz[[:blank:]], tedcruz 
+[[:blank:]]ted[[:blank:]], tedcruz 
+[[:blank:]](governor[[:blank:]])?chris[[:blank:]]christie[[:blank:]], chrischristie 
+[[:blank:]](governor[[:blank:]])?christie[[:blank:]], chrischristie 
+[[:blank:]](governor[[:blank:]])?john[[:blank:]]kasich[[:blank:]], johnkasich 
+[[:blank:]](governor[[:blank:]])?kasich[[:blank:]], johnkasich 
+[[:blank:]](senator[[:blank:]])?marco[[:blank:]]rubio[[:blank:]], marcorubio 
+[[:blank:]](senator[[:blank:]])?rubio[[:blank:]], marcorubio 
+[[:blank:]]marco[[:blank:]], marcorubio 
+[[:blank:]](governor[[:blank:]])?scott[[:blank:]]walker[[:blank:]], scottwalker 
+[[:blank:]](governor[[:blank:]])?walker[[:blank:]], scottwalker 
+[[:blank:]](vice[[:blank:]]president[[:blank:]])?joe[[:blank:]]biden[[:blank:]], joebiden 
+[[:blank:]]biden[[:blank:]], joebiden 
+[[:blank:]]al[[:blank:]]qaeda[[:blank:]], alqaeda 
+[[:blank:]]white[[:blank:]]house[[:blank:]], whitehouse 
+[[:blank:]]united[[:blank:]]nations[[:blank:]], unitednations 
+[[:blank:]]u.?n.?[[:blank:]], unitednations 
+[[:blank:]]i.?s.?i.?s.?[[:blank:]], isis 
+[[:blank:]]make[[:blank:]]america[[:blank:]]great[[:blank:]]again[[:blank:]], maga 
+[[:blank:]]m.?a.?g.?a.?[[:blank:]], maga 
+[[:blank:]]prime[[:blank:]]minister[[:blank:]], primeminister 
+[[:blank:]]commander[[:blank:]]in[[:blank:]]chief[[:blank:]], commanderinchief 
+[[:blank:]]america[[:blank:]]first[[:blank:]],americafirst
+[[:blank:]]united[[:blank:]]states([[:blank:]]of[[:blank:]]america)?[[:blank:]], unitedstates 
+[[:blank:]]u.?s.?a.?[[:blank:]], unitedstates 
+[[:blank:]]new[[:blank:]]york[[:blank:]], newyork 
+[[:blank:]]soviet[[:blank:]]union[[:blank:]], sovietunion 
+[[:blank:]]north[[:blank:]]korea[[:blank:]], northkorea 
+[[:blank:]]i.?s.?i.?l.?[[:blank:]], isis 
+[[:blank:]]islamic[[:blank:]]state[[:blank:]], isis 
+[[:blank:]]trans(-)?([[:blank:]])?pacific[[:blank:]]partnership[[:blank:]], tpp 
+[[:blank:]]t.?p.?p.?[[:blank:]],tpp
+[[:blank:]]paul[[:blank:]]ryan[[:blank:]],paulryan
+[[:blank:]]ryan[[:blank:]],paulryan
+[[:blank:]]don[[:punct:]]t[[:blank:]], dont 
+[[:blank:]]don[[:blank:]], donaldtrump 
+[[:blank:]](mike[[:blank:]])?pence[[:blank:]], mikepence 
+[[:blank:]]j.?p.?[[:blank:]]morgan[[:blank:]], jpmorgan 
+[[:blank:]]wall[[:blank:]]street[[:blank:]], wallstreet 
+[[:blank:]]supreme[[:blank:]]court[[:blank:]], supremecourt 
+[[:blank:]]new[[:blank:]]hampshire[[:blank:]], newhampshire 
+[[:blank:]]middle[[:blank:]]class[[:blank:]], middleclass 
+[[:blank:]]n.?a.?f.?t.?a.?[[:blank:]], nafta 
+[[:blank:]]i[[:punct:]]ll[[:blank:]], illl 
+[[:blank:]]e[[:punct:]]mail[[:blank:]], email 
+[[:blank:]]north[[:blank:]]carolina[[:blank:]], northcarolina 
+[[:blank:]]daily[[:blank:]]news[[:blank:]], news 
+[[:blank:]]bill[[:blank:]]clinton[[:blank:]], billclinton 
+[[:blank:]]n.?a.?s.?a.?s?[[:blank:]], nasa 
+[[:blank:]]mike[[:blank:]], mikepence 
+[[:blank:]]health[[:blank:]]care[[:blank:]](system[[:blank:]])?, healthcare 
+[[:blank:]]abraham[[:blank:]]lincoln[[:blank:]], lincoln 
+[[:blank:]]clintons[[:blank:]], hillaryclinton 
+[[:blank:]](tim[[:blank:]])?kaine[[:blank:]], timkaine 
+[[:blank:]]e[[:blank:]]mail[[:blank:]], email 
+[[:blank:]]al[[:blank:]]gore[[:blank:]], algore 
+[[:blank:]][0-9]*th[[:blank:]], 
+[[:blank:]][0-9]*st[[:blank:]], 
+[[:blank:]][0-9]*[[:blank:]], 
+[[:blank:]]middle[[:blank:]]east[[:blank:]], middleeast
+[[:blank:]]child[[:blank:]], child 
+[[:blank:]]kid[[:blank:]], child 
+[[:blank:]]baby[[:blank:]], child 
+[[:blank:]]children[[:blank:]], child 
+[[:blank:]]kids[[:blank:]], child 
+[[:blank:]]dad[[:blank:]], parent 
+[[:blank:]]mom[[:blank:]], parent 
+[[:blank:]]african[[:blank:]]american[[:blank:]], africanamerican 
+[[:blank:]]real[[:blank:]]estate[[:blank:]],realestate
+[[:blank:]]bring[[:blank:]]back[[:blank:]],bringback
