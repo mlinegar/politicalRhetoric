@@ -154,6 +154,7 @@ collectedSpeeches.tidy <- collectedSpeeches %>%
   filter(!word %in% custom_stopwords) %>%
   filter(!word %in% tm_stopwords)
 
+# anti_join not working for me for some reason
 # anti_join(custom_stopwords) %>%
 # anti_join(stop_words) 
 
@@ -168,9 +169,6 @@ collectedSpeeches.tfidf <- collectedSpeeches.tidy %>%
 # IDF(t) = log_e(Total number of documents / Number of documents with term t in it)
 # so Number of documents with term t in it/Total number of documents = 1/e^IDF(t)
 
-# fairly arbitrary cutoff point: idf less than 0.5, greater than 5
-# removing less than 0.5 might be too harsh, but let's see how it does
-# just make sure to lemmatize first
 wordsToRemove.tfidf <- collectedSpeeches.tfidf %>%
   filter(docProp > .95 | docProp <= 4/nrow(collectedSpeeches)) %>% 
   transmute(word = word, docProp = docProp) %>%
@@ -194,7 +192,7 @@ collectedSpeeches.tidy <- collectedSpeeches.tidy %>%
   anti_join(wordsToRemove.tfidf)
 
 # and now stitch everything back together so we can run it with MALLET!
-# much of this code was directly inspired/taken from Text Mining with R: A Tidy Approach by Julia Silge and David Robinson
+# much of this code was inspired by Text Mining with R: A Tidy Approach by Julia Silge and David Robinson
 
 collectedSpeeches.collapsed <- collectedSpeeches.tidy %>%
   mutate(word = str_replace(word, "'", ""), id = author_speech_id) %>%
